@@ -3,13 +3,14 @@
  * */
 package tripathy.nikhil.collections;
 import java.util.ArrayList;
-import org.apache.commons.lang3.ArrayUtils; 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Scanner;
+
+import org.apache.commons.lang3.ArrayUtils;
 public class Lists {
 public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
