@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/ntripath/workspace/Java/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ntripath/workspace/Java/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ntripath/workspace/Java/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ntripath/workspace/Java/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-tests.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ntripath/workspace/Java/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntripath/Downloads/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntripath/Downloads/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntripath/Downloads/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntripath/Downloads/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ntripath/Downloads/commons-lang3-3.6-bin/commons-lang3-3.6/commons-lang3-3.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
