@@ -12,9 +12,11 @@ public class Maps {
 public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     String str= in.nextLine();
-    //HashMap does'nt maintain any order stores data according to best storage and retrieval technique.
+    in.close();
+    //HashMap does'nt maintain any order stores data according to best storage and retrieval technique.HashMaps are not synchronized.
+    //HashMap implements map interface.
     HashMap<Character,Integer> hm =new HashMap<Character,Integer>();
-    //TreeMap stores the data in sorted order.
+    //TreeMap stores the data in sorted order.TreeMap implements sortedMap interface.
     TreeMap<Character,Integer> tm = new TreeMap<Character,Integer>();
     //LinkedHashMap stores the data according to insertion order.
     LinkedHashMap <Character,Integer> lhm = new LinkedHashMap<Character,Integer>();
