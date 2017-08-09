@@ -3,6 +3,7 @@
  * */
 package tripathy.nikhil.collections;
 import java.util.ArrayList;
+import org.apache.commons.lang3.ArrayUtils; 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
@@ -21,6 +22,9 @@ public static void main(String[] args) {
 	al.add(str.charAt(i));
 	ll.add(str.charAt(i));
     }
+    char[] arr=ArrayUtils.toPrimitive(al.toArray(new Character[0]));
+    for(char ch:arr)
+	System.out.print(ch+" ");
     Iterator<Character> it = al.iterator();
     Iterator<Character> lit= ll.iterator();
     System.out.println("Elements in arraylist");
