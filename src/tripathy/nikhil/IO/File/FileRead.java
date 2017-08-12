@@ -1,7 +1,9 @@
 //Reading a file using using FileReader
 package tripathy.nikhil.IO.File;
-import java.util.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
 public class FileRead {
 public static void main(String[] args)throws IOException {
     Scanner in= new Scanner(System.in);
