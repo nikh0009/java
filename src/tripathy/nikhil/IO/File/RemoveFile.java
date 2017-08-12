@@ -1,5 +1,6 @@
-package tripathy.nikhil.IO;
-import java.io.*;
+//Java program to delete an existing file.
+package tripathy.nikhil.IO.File;
+import java.io.File;
 public class RemoveFile {
 public static void main(String[] args) {
     try {

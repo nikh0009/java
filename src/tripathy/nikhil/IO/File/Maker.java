@@ -1,5 +1,7 @@
-package tripathy.nikhil.IO;
-import java.io.*;
+//Java program to make a file and directory
+package tripathy.nikhil.IO.File;
+import java.io.File;
+import java.io.IOException;
 public class Maker {
 public static void main(String[] args) {
    try {
