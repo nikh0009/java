@@ -24,6 +24,7 @@ public static void main(String[] args) {
        System.out.println("File created!");
        else
 	   System.out.println("File exists!");
+       System.out.println("canExecute() "+file.canExecute());
    }catch(IOException e){
        e.printStackTrace();
    }finally {

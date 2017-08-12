@@ -8,15 +8,17 @@ public static void main(String[] args) {
     System.out.println("Enter the path of directory or file to be delete");
     String path = in.nextLine();
     try {
+	//File object is a representation of the path of a directory or file.
+	//new File(File parent,String child) just adds the child to parent file object.
 	 File f1 = new File(path);
 	 if(f1.delete()) {
 		   System.out.println("Deleted!");
 	       }
 	       else {
 		   if(f1.isDirectory()) {
-		       File[] f=f1.listFiles();
-		       for(File ff:f)
-			   System.out.println(ff.getName());
+		       String[] f=f1.list();
+		       for(String ff:f)
+			   System.out.println(ff);
 		       System.out.println("Its a directory. Make sure its empty. Can't delete.");
 		   }
 		       
