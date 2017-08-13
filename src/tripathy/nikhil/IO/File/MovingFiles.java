@@ -8,6 +8,7 @@ public class MovingFiles {
 public static void main(String[] args) throws IOException {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter the origin of file");
+    //Paths.get(String pathname) returns a Path by converting a path string to uri.
     Path origin = Paths.get(in.nextLine());
     System.out.println("Enter new location");
     Path newloc = Paths.get(in.nextLine());
