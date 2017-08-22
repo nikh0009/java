@@ -1,4 +1,4 @@
-//Finding the GCD of two numnbers using euclidean method
+//Finding the GCD of two numnbers using euclidean method.
 package tripathy.nikhil.recursion;
 import java.util.Scanner;
 public class GCD {
