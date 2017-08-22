@@ -13,12 +13,12 @@ public static void main(String[] args)throws Exception {
 }
 public static void towerOfHanoi(int n,char source,char dest,char aux) throws InterruptedException {
     if(n==1) {
-	//Thread.sleep(5000);
+	Thread.sleep(5000);
 	System.out.println("Moved disk 1 from "+source+" to "+dest);
 	return;
     }
     towerOfHanoi(n-1, source, aux, dest);
-    //Thread.sleep(5000);
+    Thread.sleep(5000);
     System.out.println("Moved disk "+n+" from "+source+" to "+dest);
     towerOfHanoi(n-1, aux, dest, source);
 }

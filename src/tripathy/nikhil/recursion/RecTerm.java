@@ -11,13 +11,9 @@ static int a=-1,b=1,s=0;
     in.close();
 }
  public static int fib(int n) {
-     if(n>0) {
-	s=a+b;
-	a=b;
-	b=s;
-	return fib(n-1);
-     }
-     else
-	 return s;
- }
+  if(n<2)
+      return n;
+  else
+  return fib(n-1)+fib(n-2);
+}
 }
