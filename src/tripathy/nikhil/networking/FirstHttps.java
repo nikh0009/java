@@ -1,8 +1,17 @@
 package tripathy.nikhil.networking;
-import java.io.*;
-import java.net.*;
-import javax.net.ssl.*;
-import com.google.gson.*;
+//Java program to get the list of repositories of a particular user!
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.net.ssl.HttpsURLConnection;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 public class FirstHttps {
 public static void main(String[] args) {
     JsonObject jobj= new JsonObject();
@@ -36,7 +45,6 @@ public static void main(String[] args) {
      // System.out.println(temp.toString());
       JsonArray jarr = parser.parse(temp.toString()).getAsJsonArray();
       //Getting the entire object as Json array.
-      //System.out.println(jarr);
       System.out.println("User has "+jarr.size()+" repositories:\nList of repos!");
       for(int i=0;i<jarr.size();i++) {
 	      jobj=(JsonObject)jarr.get(i);
