@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang.ArrayUtils;
 public class Lists {
 public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
